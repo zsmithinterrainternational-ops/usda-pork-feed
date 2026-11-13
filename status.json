@@ -1,0 +1,10 @@
+{
+ "built_utc": "2026-11-13T18:04:35+00:00",
+ "mode": "backfill",
+ "ok": true,
+ "error": "",
+ "latest_report": "2026-11-12",
+ "report_days_stored": 787,
+ "first_report": "2023-10-12",
+ "flags": []
+}

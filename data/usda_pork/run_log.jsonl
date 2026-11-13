@@ -1,0 +1,1 @@
+{"run_utc": "2026-11-13T18:01:10+00:00", "mode": "backfill", "status": "ok", "requests": 38, "dates_in_response": 787, "dates_new": 787, "dates_revised": 0, "rows_new": 74019, "rows_changed": 0, "rows_removed": 0, "items_new": 312, "errors": [], "window": ["2023-10-12", "2026-11-13"], "latest_report_date": "2026-11-12", "earliest_report_date": "2023-10-12", "unexpected_gaps": []}
