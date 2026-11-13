@@ -1,0 +1,38 @@
+name: USDA daily
+
+on:
+  schedule:
+    # GitHub runs schedules in UTC and may start them late at busy times.
+    # USDA publishes report 2498 about 3:50 PM Eastern. These cover standard and daylight time.
+    - cron: "15 21 * * 1-5"   # 4:15 PM EST / 5:15 PM EDT, weekdays
+    - cron: "0 23 * * 1-5"    # 6:00 PM EST / 7:00 PM EDT, weekdays (second try)
+    - cron: "30 13 * * 1-6"   # 8:30 AM EST / 9:30 AM EDT, Mon-Sat (catch-up)
+  workflow_dispatch: {}       # "Run workflow" button for a manual run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: usda-feed
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TZ: America/New_York
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull USDA report 2498 and build the feed
+        run: python cloud_run.py
+      - name: Save data and feed to the repository
+        if: always()
+        run: |
+          git config user.name "usda-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then echo "No changes"; else git commit -m "USDA feed $(date '+%Y-%m-%d %I:%M %p %Z')" && git push; fi
