@@ -2,8 +2,8 @@
 
 First run (no stored data): backfills report 2498 (LM_PK602) from `backfill_since` (or `backfill_years`).
 Later runs: daily pull (new days first, then the optional revision re-check).
-Always writes docs/usda_pork.json (the payload the Reports Hub USDA tab draws) and
-docs/status.json, even when USDA does not answer, so the page can say so.
+Always writes usda_pork.json (in docs/ or the root) (the payload the Reports Hub USDA tab draws) and
+status.json, even when USDA does not answer, so the page can say so.
 Exit code 1 when the USDA pull failed, so GitHub marks the run red and emails you.
 """
 import importlib.util
@@ -13,7 +13,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-spec = importlib.util.spec_from_file_location("collect", ROOT / "usda_pork" / "collect.py")
+# works with collect.py in usda_pork/ or next to this file (flat upload)
+SRC = next(p for p in (ROOT / "usda_pork" / "collect.py", ROOT / "collect.py") if p.exists())
+spec = importlib.util.spec_from_file_location("collect", SRC)
 C = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(C)
 
@@ -37,8 +39,8 @@ def main(fetch=None, pause=None, today=None, now=None):
         ok, err = False, str(e)
         print("[cloud] USDA pull failed: %s" % e)
     payload = C.export(cfg, str(data_dir), {}, today=today, now=now)
-    docs = ROOT / "docs"
-    docs.mkdir(exist_ok=True)
+    # publish next to index.html: docs/ if that folder exists, otherwise the repository root
+    docs = ROOT / "docs" if (ROOT / "docs" / "index.html").exists() else ROOT
     (docs / "usda_pork.json").write_text(json.dumps(payload, separators=(",", ":")), encoding="utf-8")
     status = {"built_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
               "mode": mode, "ok": ok, "error": err,
@@ -53,3 +55,4 @@ def main(fetch=None, pause=None, today=None, now=None):
 
 if __name__ == "__main__":
     sys.exit(main())
+    
