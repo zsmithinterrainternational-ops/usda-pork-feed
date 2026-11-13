@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>USDA pork feed</title>
+<style>body{font-family:system-ui,Segoe UI,Arial,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;color:#17232B}h1{font-size:1.4rem}
+.k{color:#5b6670}.ok{color:#2e6b3a}.bad{color:#a33}code{background:#f2f4f6;padding:2px 6px;border-radius:4px}li{margin:4px 0}</style></head>
+<body><h1>USDA pork feed (report 2498, LM_PK602)</h1>
+<p class="k">Built by a scheduled GitHub Actions job. The Reports Hub USDA tab reads <code>usda_pork.json</code> from this site.</p>
+<div id="s">Loading status…</div>
+<script>
+fetch('status.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(s=>{
+  const t=new Date(s.built_utc).toLocaleString('en-US',{timeZone:'America/New_York',dateStyle:'medium',timeStyle:'short'});
+  document.getElementById('s').innerHTML='<p><b>Latest report:</b> '+(s.latest_report||'none yet')+'</p>'+
+    '<p><b>Last run:</b> '+t+' Eastern, <span class="'+(s.ok?'ok':'bad')+'">'+(s.ok?'OK':'USDA did not answer: '+String(s.error).slice(0,200))+'</span></p>'+
+    '<p class="k">'+(s.report_days_stored||0)+' report days stored, from '+(s.first_report||'')+'.</p>'+
+    (s.flags&&s.flags.length?'<ul>'+s.flags.map(f=>'<li>'+String(f).replace(/</g,'&lt;')+'</li>').join('')+'</ul>':'');
+}).catch(()=>{document.getElementById('s').textContent='No status yet. Run the workflow once.';});
+</script></body></html>
