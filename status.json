@@ -1,12 +1,10 @@
 {
- "built_utc": "2026-11-16T15:58:49+00:00",
+ "built_utc": "2026-11-16T21:54:28+00:00",
  "mode": "daily",
- "ok": false,
- "error": "unexpected response shape: str",
- "latest_report": "2026-11-13",
- "report_days_stored": 788,
+ "ok": true,
+ "error": "",
+ "latest_report": "2026-11-16",
+ "report_days_stored": 789,
  "first_report": "2023-10-12",
- "flags": [
-  "Last run failed: unexpected response shape: str. Showing last good data."
- ]
+ "flags": []
 }
