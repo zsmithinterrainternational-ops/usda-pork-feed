@@ -74201,3 +74201,105 @@ report_date,section,item,total_lbs,low,high,wavg
 2026-11-16,Variety Cuts,Untrimmed Neckbones Gas,9360,80.5,137.55,126.45
 2026-11-16,Variety Cuts,Untrimmed Neckbones Poly,8619,65,100,84.27
 2026-11-16,Variety Cuts,"Untrimmed Neckbones Poly, FZN",14700,39.75,55,44.11
+2026-11-17,Added Ingredients Cuts,AI 1/4 Trim Bnls Butt VAC,5269,155,159,158.43
+2026-11-17,Added Ingredients Cuts,AI Bnls CC Strap Off,18856,131.75,200,147.73
+2026-11-17,Added Ingredients Cuts,"AI Bnls CC Strap-off, 1/2 cut",4827,159,233,195.3
+2026-11-17,Added Ingredients Cuts,AI Boneless Sirloin,107215,121,129.75,127.61
+2026-11-17,Added Ingredients Cuts,AI Picnic Cushion Meat Vac,2975,189,209,203.5
+2026-11-17,Added Ingredients Cuts,"AI Tenderloin, 1 pc vac",2236,232,236,232.97
+2026-11-17,Belly Cuts,Derind Belly 13-17#,335896,60,106.4,79.77
+2026-11-17,Belly Cuts,Derind Belly 9-13#,35404,60,109,82.95
+2026-11-17,Belly Cuts,Derind Belly 9-13# Boxed,6255,120,209.92,164.72
+2026-11-17,Belly Cuts,Skin-on Belly 10-12# Boxed,5499,205.92,210.92,208.96
+2026-11-17,Belly Cuts,Skin-on Belly 12-14#,15952,75,91.64,79.17
+2026-11-17,Belly Cuts,Skin-on Belly 12-14# Boxed,9936,208.1,216.72,212.64
+2026-11-17,Belly Cuts,Skin-on Belly 16-18#,54028,95,100,96.92
+2026-11-17,Butt Cuts,1/4 Trim Bnls Butt 1 Pc VAC,16197,135,139,136.64
+2026-11-17,Butt Cuts,1/4 Trim Bnls Butt Combo,15762,125,155,133.73
+2026-11-17,Butt Cuts,1/4 Trim Bnls Butt VAC,860062,110,178.79,131.02
+2026-11-17,Butt Cuts,"1/4 Trim Bnls Butt VAC, FZN",92852,114.5,162.19,127.12
+2026-11-17,Butt Cuts,1/4 Trim Butt 1 Pc VAC,9575,104.25,112,106.5
+2026-11-17,Butt Cuts,"1/4 Trim Butt 1 Pc VAC, FZN",8912,79,95,91.34
+2026-11-17,Butt Cuts,1/4 Trim Butt Combo,266000,80,89.64,80.07
+2026-11-17,Butt Cuts,1/4 Trim Butt Paper,11183,115,119,117.69
+2026-11-17,Butt Cuts,1/4 Trim Butt VAC,533524,85,138.35,102.6
+2026-11-17,Butt Cuts,"1/4 Trim Butt VAC, FZN",15906,95,147.79,139.71
+2026-11-17,Butt Cuts,1/8 Trim Butt 1 Pc VAC,19768,102.66,107.32,102.97
+2026-11-17,Butt Cuts,Bnls CT Butt 1 Pc VAC,16054,226,241.5,230.7
+2026-11-17,Ham Cuts,17-20 Boxed Vac Pack,5472,108,165,154.92
+2026-11-17,Ham Cuts,20-23 Ham Boxed,11604,90.5,161.5,102.53
+2026-11-17,Ham Cuts,20-23# Trmd Selected Ham,54594,65,85,73.77
+2026-11-17,Ham Cuts,23-27 Ham Boxed,33645,88.93,130.79,109.1
+2026-11-17,Ham Cuts,23-27# Trmd Selected Ham,1763954,60,80.5,63.89
+2026-11-17,Ham Cuts,3 Muscle Ham to Blue,114000,136.93,169.5,161.63
+2026-11-17,Ham Cuts,Insides,43766,106.1,160.35,112.27
+2026-11-17,Ham Cuts,Insides (RED) Combo,128394,125,185.5,169.93
+2026-11-17,Ham Cuts,Insides Boxed,4416,140,223.5,159.7
+2026-11-17,Ham Cuts,Knuckles,49552,106.1,183,122.59
+2026-11-17,Ham Cuts,Knuckles (RED) Combo,40000,144.5,185.5,180.55
+2026-11-17,Ham Cuts,Outsides,45152,106.1,109.5,108.3
+2026-11-17,Ham Cuts,Outsides (RED) Combo,117210,136,185.5,174.79
+2026-11-17,Ham Cuts,Rollout Ham Bnls Boxed,51411,125,168,132.73
+2026-11-17,Ham Cuts,Shanks Bone In Boxed,6160,125,195,157.62
+2026-11-17,Jowl Cuts,Skinned Boxed,6300,105,114,106.57
+2026-11-17,Jowl Cuts,"Skinned Boxed, FZN",20660,97.54,155,132.68
+2026-11-17,Loin Cuts,1/4 Trimmed Loin Combo,380981,65,79,72.62
+2026-11-17,Loin Cuts,1/4 Trimmed Loin VAC,679133,70,111,76.12
+2026-11-17,Loin Cuts,"1/4 Trimmed Loin VAC, FZN",9467,74,108,92.7
+2026-11-17,Loin Cuts,1/8 Trimmed Loin VAC,122744,80.5,108.92,86.77
+2026-11-17,Loin Cuts,"B-In CC, Tender-in, FLON Loin",42995,105,160.73,122.53
+2026-11-17,Loin Cuts,Backribs 2.0#/up,28034,227,251,235.71
+2026-11-17,Loin Cuts,Backribs 2.0#/up 1 Pc Vac,44349,220,255.92,232.97
+2026-11-17,Loin Cuts,"Backribs 2.0#/up 1 Pc Vac, FZN",18166,75,261.68,229.86
+2026-11-17,Loin Cuts,"Backribs 2.0#/up, FZN",119233,211.1,219,211.14
+2026-11-17,Loin Cuts,Blade Ends,13122,80,122.5,99.21
+2026-11-17,Loin Cuts,Bnls CC Strap-off,146630,125,174.48,132.6
+2026-11-17,Loin Cuts,Bnls CC Strap-on,506847,96.3,147.79,109.73
+2026-11-17,Loin Cuts,"Bnls CC Strap-on, FZN",15197,115,123,116.75
+2026-11-17,Loin Cuts,"Bone-in CC, Tender-in Loin VAC",18400,113.08,154,123.67
+2026-11-17,Loin Cuts,Bone-in Sirloin,151171,49.87,102,59.97
+2026-11-17,Loin Cuts,"Bone-in Sirloin, FZN",3420,40,70,53.16
+2026-11-17,Loin Cuts,Boneless Sirloin,243321,89,157.6,99.39
+2026-11-17,Loin Cuts,"Boneless Sirloin, Combo",72104,76,96,84.26
+2026-11-17,Loin Cuts,Tenderloin,221229,125.81,212.63,136.77
+2026-11-17,Picnic Cuts,Picnic Cushion Meat Combo,75214,90,129.36,101.29
+2026-11-17,Picnic Cuts,Picnic Cushion Meat Vac,325390,96.24,144.5,108.83
+2026-11-17,Picnic Cuts,RS Smoker Trim Picnic Combo,309380,71.08,102.21,71.39
+2026-11-17,Picnic Cuts,SS Smoker Trim Picnic 1 Pc Vac,37590,99.08,127.5,110.34
+2026-11-17,Picnic Cuts,SS Smoker Trim Picnic Combo,206816,91,102,92.82
+2026-11-17,Picnic Cuts,SS Smoker Trim Picnic VAC,316445,85.3,122.9,97.93
+2026-11-17,Sparerib Cuts,"St Louis Spareribs, POLY",7595,226,226.5,226.46
+2026-11-17,Sparerib Cuts,"St Louis Spareribs, POLY, FZN",44834,228,338.82,307.54
+2026-11-17,Sparerib Cuts,"St Louis Spareribs, VAC",148602,170,299,209.76
+2026-11-17,Sparerib Cuts,"St Louis Spareribs, VAC, FZN",19772,197.87,255,226.35
+2026-11-17,Sparerib Cuts,Trmd Sparerib - LGT,248717,120,172,130.17
+2026-11-17,Sparerib Cuts,"Trmd Sparerib - LGT, Poly, FZN",2511,191.79,208.5,197.36
+2026-11-17,Sparerib Cuts,Trmd Sparerib - MED,327259,130.3,162.5,141.8
+2026-11-17,Sparerib Cuts,"Trmd Sparerib - MED, 1 PC VAC",3435,187.5,194.5,189.91
+2026-11-17,Sparerib Cuts,"Trmd Sparerib - MED, Poly",3737,171.5,181.5,177.91
+2026-11-17,Sparerib Cuts,Trmd Sparerib - Med Combo,64143,132,155.5,133.77
+2026-11-17,Trim Cuts,42% Trim Boxed,28500,65,92.07,81.1
+2026-11-17,Trim Cuts,"42% Trim Boxed, FZN",170160,45,109.49,56.53
+2026-11-17,Trim Cuts,42% Trim Combo,190702,37.41,61.92,43.23
+2026-11-17,Trim Cuts,72% Trim Boxed,39660,62,92,85.9
+2026-11-17,Trim Cuts,"72% Trim Boxed, FZN",64560,53,99,59.08
+2026-11-17,Trim Cuts,72% Trim Combo,169661,35,64.4,47.92
+2026-11-17,Trim Cuts,Picnic Meat Boxed Cushion Out,36840,83,114,92.91
+2026-11-17,Trim Cuts,"Picnic Meat Boxed Cushion Out, FZN",23700,80,86.15,81.48
+2026-11-17,Trim Cuts,Picnic Meat Combo Cushion Out,394918,66.32,95,74.21
+2026-11-17,Trim Cuts,Trim w/Trace Combo,110700,41.28,75,51.43
+2026-11-17,Variety Cuts,"Breast Bones Poly, FZN",7140,83,97,91.24
+2026-11-17,Variety Cuts,"Front Feet, Poly",3160,97,108.5,100.79
+2026-11-17,Variety Cuts,"Front Feet, Poly, FZN",82235,59,144.59,84.13
+2026-11-17,Variety Cuts,"Hind Feet, Poly",19907,85,126,90.45
+2026-11-17,Variety Cuts,"Hind Feet, Poly, FZN",75510,52,109,69.17
+2026-11-17,Variety Cuts,"Hocks, Picnic, Poly, FZN",4810,39.5,55,44.9
+2026-11-17,Variety Cuts,"Tails, Combo",11392,58,74.28,66.43
+2026-11-17,Variety Cuts,"Tails, Poly, FZN",78210,45,87.5,59.34
+2026-11-17,Variety Cuts,Trimmed Neckbones Combo,64690,25.08,37.5,27.06
+2026-11-17,Variety Cuts,Trimmed Neckbones Gas,30780,68,107.07,92.93
+2026-11-17,Variety Cuts,Trimmed Neckbones Poly,44190,58,78.5,66.97
+2026-11-17,Variety Cuts,"Trimmed Neckbones Poly, FZN",38040,40,70.37,49.48
+2026-11-17,Variety Cuts,Untrimmed Neckbones Gas,6150,96,106.58,101.16
+2026-11-17,Variety Cuts,Untrimmed Neckbones Poly,20648,40,100,63.52
+2026-11-17,Variety Cuts,"Untrimmed Neckbones Poly, FZN",15030,44,68,53.5
